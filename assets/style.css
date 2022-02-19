@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #4e6172;
+    --secondary-color: #ffe2d1;
+    --tertiary-color: #ad7a99;
+    --dark-color: #1f271b; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+header {
+    padding: 25px 15px;
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px;
+    font-size: 1.5vw;
+    color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('');
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 0 30px;
+    margin-right: 70px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5vw
+}
+
+footer h2 {
+    padding: 5px 5px;
+    padding-right: 19px;
+    margin: 10px;
+    font-size: 30px;
+    border-right: 5px solid var(--tertiary-color);
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-flow: row;
+}
+
+.about-me h2 {
+    padding: 5px 25px;
+    margin: 10px;
+    font-size: 30px;
+    border-right: 5px solid var(--tertiary-color);
+}
+
+.about-me p {
+    padding: 20px;
+    margin-left: 80px;
+    justify-content: flex-end;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.work h2 {
+    padding: 5px 43px 5px 25px;
+    margin: 10px;
+    font-size: 30px;
+    border-right: 5px solid var(--tertiary-color);
+}
