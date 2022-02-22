@@ -28,6 +28,7 @@ header {
 header h1 {
     font-size: 38px;
     font-weight: bold;
+    margin-left: 15px;
 }
 
 header a {
@@ -59,6 +60,10 @@ header nav ul li a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url("https://wallpaperaccess.com/full/2752883.jpg");
+    background-size: cover;
+    background-position: 80%;
+    z-index: 9999;
 }
 
 .hero img {
