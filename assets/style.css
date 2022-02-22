@@ -86,6 +86,7 @@ footer ul {
     align-items: center;
     list-style: none;
     margin-right: 50px;
+    width: 60%;
 }
 
 footer ul li {
@@ -134,10 +135,11 @@ footer a {
 .work a {
     margin-right: 50px;
     text-decoration: none;
-    height: 100px;
-    width: 175px;
+    height: 200px;
+    width: 250px;
     background-color: #4e6172;
     overflow: auto;
+    overflow-y: hidden;
 }
 
 .project-box {
@@ -146,7 +148,22 @@ footer a {
     flex-wrap: wrap;
 }
 
+.project-box a {
+    color: var(--tertiary-color);
+}
+
 .project {
     margin: 7px;
     padding: 5px;
 }
+
+.project img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+}
+
+.project img:hover {
+    opacity: .8;
+}
+
